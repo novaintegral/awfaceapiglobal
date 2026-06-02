@@ -1,8 +1,6 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://hml.certiface.com.br',
-  login: 'safra.epf.hml',
-  pass: 'certiface2020',
+  apiUrl: '/api',
   DeviceKeyIdentifier: 'dF2CabwQ6OCLFJaV2QqZhP7OUErHv0uz',
   PublicFaceScanEncryptionKey:
     '-----BEGIN PUBLIC KEY-----\n' +
