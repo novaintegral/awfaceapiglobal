@@ -19,4 +19,6 @@ Nao grave credenciais reais em `appsettings*.json`. Use variaveis de ambiente, u
 dotnet run --project backend/AwFace.Api/AwFace.Api.csproj
 ```
 
-O Angular deve chamar `/api/facecaptcha/service/captcha/...`. Em desenvolvimento, use o proxy do Angular para redirecionar `/api` para a porta do backend.
+O Angular deve chamar endpoints de dominio AWFace, como `/api/liveness/facetec-v10/session-request`.
+Os endpoints `/api/facecaptcha/service/captcha/...` continuam disponiveis temporariamente para compatibilidade enquanto os fluxos legados sao migrados.
+Em desenvolvimento, use o proxy do Angular para redirecionar `/api` para a porta do backend.

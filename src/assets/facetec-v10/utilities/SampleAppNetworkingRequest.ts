@@ -23,7 +23,7 @@ export class SampleAppNetworkingRequest {
     const request: XMLHttpRequest = new XMLHttpRequest();
 
     function openAndSendRequest(): any {
-      request.open("POST", environment.apiUrl + '/facecaptcha/service/captcha/3d/process-request');
+      request.open("POST", environment.apiUrl + '/liveness/facetec-v10/session-request');
       request.setRequestHeader("Content-Type", "application/json");
       request.send(JSON.stringify(sessionRequestCallPayload));
     }

@@ -25,6 +25,21 @@ builder.Services
         AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate | DecompressionMethods.Brotli
     });
 
+builder.Services
+    .AddHttpClient<ICertifaceClient, CertifaceClient>((serviceProvider, client) =>
+    {
+        var options = serviceProvider
+            .GetRequiredService<Microsoft.Extensions.Options.IOptions<CertifaceOptions>>()
+            .Value;
+
+        client.BaseAddress = options.BaseUrl;
+        client.Timeout = TimeSpan.FromSeconds(options.TimeoutSeconds);
+    })
+    .ConfigurePrimaryHttpMessageHandler(() => new HttpClientHandler
+    {
+        AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate | DecompressionMethods.Brotli
+    });
+
 builder.Services.AddControllers();
 builder.Services.AddCors(options =>
 {
