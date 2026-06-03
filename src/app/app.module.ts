@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
+import { IonicModule } from '@ionic/angular';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -13,6 +14,13 @@ import { FaceTecSDK as FaceTecSDKType } from 'src/assets/core-sdk/FaceTecSDK.js/
 import { SendDigitalCnhComponent } from './send-digital-cnh/send-digital-cnh.component';
 import { IproovComponent } from './iproov/iproov.component';
 import { FacetecV10Component } from './facetec-v10/facetec-v10.component';
+import { ConsentComponent } from './journey/consent/consent.component';
+import { PreparationComponent } from './journey/preparation/preparation.component';
+import { CaptureComponent } from './journey/capture/capture.component';
+import { ProcessingComponent } from './journey/processing/processing.component';
+import { CompletionComponent } from './journey/completion/completion.component';
+import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
+import { ContainerComponent } from './journey/container/container.component';
 
 @NgModule({
   declarations: [
@@ -25,10 +33,18 @@ import { FacetecV10Component } from './facetec-v10/facetec-v10.component';
     SendDigitalCnhComponent,
     SenddocumentComponent,
     IproovComponent,
-    FacetecV10Component
+    FacetecV10Component,
+    ConsentComponent,
+    PreparationComponent,
+    CaptureComponent,
+    ProcessingComponent,
+    CompletionComponent,
+    AdminDashboardComponent,
+    ContainerComponent
   ],
   imports: [
     BrowserModule,
+    IonicModule.forRoot(),
     AppRoutingModule,
     HttpClientModule
   ],
