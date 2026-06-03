@@ -31,7 +31,6 @@ import { ContainerComponent } from './journey/container/container.component';
     Liveness3dComponent,
     SenddocumentComponent,
     SendDigitalCnhComponent,
-    SenddocumentComponent,
     IproovComponent,
     FacetecV10Component,
     ConsentComponent,

@@ -53,7 +53,7 @@
         <img *ngIf="filePreview.type.startsWith('image')" [src]="ImageIcon" alt="Image Icon" class="file-icon-img">
         <img *ngIf="filePreview.type === 'application/pdf'" [src]="PdfIcon" alt="PDF Icon" class="file-icon-img">
       </div>
-      <p class="file-name">{{ filePreview.name }}</p>
+      <p class="file-name">{{ filePreview?.name }}</p>
 
 
       <div class="d-flex justify-content-center align-items-center">
