@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+
+/* Default Fallback Theme for AWFace (Ionic Colors) */
+:root {
+  --ion-color-primary: #0e8ce1;
+  --ion-color-primary-rgb: 14, 140, 225;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #0c7bc6;
+  --ion-color-primary-tint: #2698e4;
+
+  --ion-color-secondary: #6ec6ff;
+  --ion-color-secondary-rgb: 110, 198, 255;
+  --ion-color-secondary-contrast: #000000;
+  --ion-color-secondary-contrast-rgb: 0, 0, 0;
+  --ion-color-secondary-shade: #61aee0;
+  --ion-color-secondary-tint: #7dccff;
+
+  --ion-color-tertiary: #d9b8ff;
+  --ion-color-tertiary-rgb: 217, 184, 255;
+  --ion-color-tertiary-contrast: #000000;
+  --ion-color-tertiary-contrast-rgb: 0, 0, 0;
+  --ion-color-tertiary-shade: #bfa2e0;
+  --ion-color-tertiary-tint: #ddbfff;
+
+  --ion-background-color: #f7fbff;
+  --ion-text-color: #2f4858;
+}
+
+body {
+  background-color: var(--ion-background-color);
+  color: var(--ion-text-color);
+  font-family: var(--ion-font-family, inherit);
+}

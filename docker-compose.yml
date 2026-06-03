@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: awface
+      POSTGRES_PASSWORD: awface_password
+      POSTGRES_DB: awface_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    environment:
+      - ConnectionStrings__DefaultConnection=Host=db;Database=awface_db;Username=awface;Password=awface_password
+      - Certiface__BaseUrl=https://hml.certiface.com.br
+      - Certiface__TimeoutSeconds=60
+    ports:
+      - "5000:80"
+    depends_on:
+      - db
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "4200:80"
+    depends_on:
+      - backend
+
+volumes:
+  pgdata:

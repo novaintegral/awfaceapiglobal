@@ -1,0 +1,257 @@
+
+> liveness-angular-example@0.0.0 start
+> ng serve
+
+- Generating browser application bundles (phase: setup)...
+    TypeScript compiler options "target" and "useDefineForClassFields" are set to "ES2022" and "false" respectively by the Angular CLI. To control ECMA version and features use the Browerslist configuration. For more information, see https://angular.io/guide/build#configuring-browser-compatibility
+    NOTE: You can set the "target" to "ES2022" in the project's tsconfig to remove this warning.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                                                  | Names                                                             |  Raw Size
+main.js                                                              | main                                                              |   3.69 MB |
+vendor.js                                                            | vendor                                                            |   2.48 MB |
+scripts.js                                                           | scripts                                                           |   2.03 MB |
+styles.css, styles.js                                                | styles                                                            | 425.49 kB |
+polyfills.js                                                         | polyfills                                                         | 252.55 kB |
+runtime.js                                                           | runtime                                                           |  14.14 kB |
+
+| Initial Total                                                     |   8.88 MB
+
+Lazy Chunk Files                                                     | Names                                                             |  Raw Size
+src_assets_core-sdk-v10_core-sdk-optional_FaceTecStrings_pt-br_js.js | src-assets-core-sdk-v10-core-sdk-optional-FaceTecStrings-pt-br-js |  12.01 kB |
+
+Build at: 2026-06-03T01:57:28.435Z - Hash: 206e4cf286eac653 - Time: 29821ms
+
+Warning: /app/src/app/backend/facecaptcha.service.ts depends on 'crypto-js'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /app/src/app/facetec-v10/facetec-v10.component.ts depends on 'src/assets/core-sdk-v10/core-sdk-optional/FaceTecStrings.pt-br.js'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /app/src/app/liveness3d/liveness3d.component.ts depends on 'src/assets/sample-app'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                                                                                     | Names                   |  Raw Size
+main.js                                                                                                 | main                    |   3.70 MB |
+vendor.js                                                                                               | vendor                  |   3.56 MB |
+runtime.js                                                                                              | runtime                 |  14.14 kB |
+
+Lazy Chunk Files                                                                                        | Names                   |  Raw Size
+node_modules_ionic_core_dist_esm_ion-datetime_3_entry_js.js                                             | -                       | 156.54 kB |
+node_modules_ionic_core_dist_esm_ion-modal_entry_js.js                                                  | -                       | 138.11 kB |
+node_modules_ionic_core_dist_esm_ion-app_8_entry_js.js                                                  | -                       |  85.70 kB |
+node_modules_ionic_core_dist_esm_ion-select_3_entry_js.js                                               | -                       |  80.82 kB |
+node_modules_ionic_core_dist_esm_ion-popover_entry_js.js                                                | -                       |  69.97 kB |
+node_modules_ionic_core_dist_esm_ion-item_8_entry_js.js                                                 | -                       |  69.26 kB |
+common.js                                                                                               | common                  |  68.60 kB |
+node_modules_ionic_core_dist_esm_ion-textarea_entry_js.js                                               | -                       |  62.55 kB |
+node_modules_ionic_core_dist_esm_ion-refresher_2_entry_js.js                                            | -                       |  59.31 kB |
+node_modules_ionic_core_dist_esm_ion-input_entry_js.js                                                  | -                       |  59.18 kB |
+default-node_modules_ionic_core_dist_esm_data-B9iGR5YO_js.js                                            | -                       |  58.75 kB |
+node_modules_ionic_core_dist_esm_ion-alert_entry_js.js                                                  | -                       |  57.07 kB |
+node_modules_ionic_core_dist_esm_ion-range_entry_js.js                                                  | -                       |  54.90 kB |
+node_modules_ionic_core_dist_esm_ion-menu_3_entry_js.js                                                 | -                       |  48.41 kB |
+node_modules_ionic_core_dist_esm_ion-segment_2_entry_js.js                                              | -                       |  48.23 kB |
+node_modules_ionic_core_dist_esm_ion-toast_entry_js.js                                                  | -                       |  47.89 kB |
+node_modules_ionic_core_dist_esm_ion-button_2_entry_js.js                                               | -                       |  43.99 kB |
+node_modules_ionic_core_dist_esm_ion-action-sheet_entry_js.js                                           | -                       |  41.68 kB |
+node_modules_ionic_core_dist_esm_ion-input-otp_entry_js.js                                              | -                       |  41.56 kB |
+node_modules_ionic_core_dist_esm_ion-searchbar_entry_js.js                                              | -                       |  38.07 kB |
+node_modules_ionic_core_dist_esm_ion-nav_2_entry_js.js                                                  | -                       |  37.31 kB |
+node_modules_ionic_core_dist_esm_ion-item-option_3_entry_js.js                                          | -                       |  35.00 kB |
+node_modules_ionic_core_dist_esm_ion-toggle_entry_js.js                                                 | -                       |  34.26 kB |
+node_modules_ionic_core_dist_esm_ion-radio_2_entry_js.js                                                | -                       |  33.55 kB |
+node_modules_ionic_core_dist_esm_ion-route_4_entry_js.js                                                | -                       |  33.48 kB |
+node_modules_ionic_core_dist_esm_ion-accordion_2_entry_js.js                                            | -                       |  31.56 kB |
+node_modules_ionic_core_dist_esm_input-shims-DbrgeeNb_js.js                                             | input-shims-DbrgeeNb-js |  29.12 kB |
+node_modules_ionic_core_dist_esm_ion-picker-column_entry_js.js                                          | -                       |  28.40 kB |
+node_modules_ionic_core_dist_esm_ion-fab_3_entry_js.js                                                  | -                       |  27.96 kB |
+node_modules_ionic_core_dist_esm_ion-checkbox_entry_js.js                                               | -                       |  26.69 kB |
+node_modules_ionic_core_dist_esm_ion-tab-bar_2_entry_js.js                                              | -                       |  24.82 kB |
+node_modules_ionic_core_dist_esm_ion-picker_entry_js.js                                                 | -                       |  24.08 kB |
+node_modules_ionic_core_dist_esm_ion-breadcrumb_2_entry_js.js                                           | -                       |  22.51 kB |
+node_modules_ionic_core_dist_esm_ion-progress-bar_entry_js.js                                           | -                       |  22.38 kB |
+node_modules_ionic_core_dist_esm_ion-datetime-button_entry_js.js                                        | -                       |  20.29 kB |
+node_modules_ionic_core_dist_esm_ion-loading_entry_js.js                                                | -                       |  19.77 kB |
+node_modules_ionic_core_components_p-CBzELu-H_js.js                                                     | p-CBzELu-H-js           |  16.50 kB |
+node_modules_ionic_core_dist_esm_ion-card_5_entry_js.js                                                 | -                       |  16.00 kB |
+node_modules_ionic_core_dist_esm_ion-back-button_entry_js.js                                            | -                       |  15.66 kB |
+node_modules_ionic_core_dist_esm_ion-infinite-scroll_2_entry_js.js                                      | -                       |  14.78 kB |
+node_modules_ionic_core_dist_esm_ion-reorder_2_entry_js.js                                              | -                       |  14.65 kB |
+default-node_modules_ionic_core_dist_esm_input_utils-Bxa_DQ7-_js-node_modules_ionic_core_dist-66891c.js | -                       |  13.07 kB |
+node_modules_ionic_core_dist_esm_ion-col_3_entry_js.js                                                  | -                       |  13.04 kB |
+node_modules_ionic_core_dist_esm_ion-tab_2_entry_js.js                                                  | -                       |  11.25 kB |
+node_modules_ionic_core_dist_esm_ion-select-modal_entry_js.js                                           | -                       |  10.24 kB |
+node_modules_ionic_core_dist_esm_ion-spinner_entry_js.js                                                | -                       |   8.55 kB |
+node_modules_ionic_core_dist_esm_ion-chip_entry_js.js                                                   | -                       |   8.17 kB |
+node_modules_ionic_core_dist_esm_ion-split-pane_entry_js.js                                             | -                       |   7.48 kB |
+node_modules_ionic_core_dist_esm_ion-segment-view_entry_js.js                                           | -                       |   6.75 kB |
+node_modules_ionic_core_dist_esm_ion-ripple-effect_entry_js.js                                          | -                       |   6.65 kB |
+node_modules_ionic_core_dist_esm_ion-picker-column-option_entry_js.js                                   | -                       |   6.30 kB |
+node_modules_ionic_core_dist_esm_index-BtUdxPjv_js.js                                                   | index-BtUdxPjv-js       |   5.99 kB |
+node_modules_ionic_core_dist_esm_ion-avatar_3_entry_js.js                                               | -                       |   5.86 kB |
+node_modules_ionic_core_dist_esm_ion-input-password-toggle_entry_js.js                                  | -                       |   5.25 kB |
+node_modules_ionic_core_dist_esm_ion-img_entry_js.js                                                    | -                       |   4.90 kB |
+node_modules_ionic_core_dist_esm_ion-backdrop_entry_js.js                                               | -                       |   3.12 kB |
+node_modules_ionic_core_dist_esm_status-tap-BfJqFSLF_js.js                                              | status-tap-BfJqFSLF-js  |   2.72 kB |
+node_modules_ionic_core_components_p-CU1SSH8__js.js                                                     | p-CU1SSH8_-js           |   2.30 kB |
+node_modules_ionic_core_dist_esm_ion-text_entry_js.js                                                   | -                       |   1.90 kB |
+node_modules_ionic_core_dist_esm_ion-segment-content_entry_js.js                                        | -                       |   1.72 kB |
+
+4 unchanged chunks
+
+Build at: 2026-06-03T01:57:53.158Z - Hash: a2aa77fab5023c06 - Time: 12655ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  3.70 MB |
+runtime.js          | runtime | 14.14 kB |
+
+65 unchanged chunks
+
+Build at: 2026-06-03T01:58:16.995Z - Hash: b2383e49a64449f5 - Time: 2157ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  3.70 MB |
+runtime.js          | runtime | 14.14 kB |
+
+65 unchanged chunks
+
+Build at: 2026-06-03T01:58:18.752Z - Hash: 809e95d2677b246c - Time: 1349ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  3.71 MB |
+runtime.js          | runtime | 14.14 kB |
+
+65 unchanged chunks
+
+Build at: 2026-06-03T01:58:20.578Z - Hash: 67b133b7511cd230 - Time: 1606ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  3.71 MB |
+runtime.js          | runtime | 14.14 kB |
+
+65 unchanged chunks
+
+Build at: 2026-06-03T01:58:22.255Z - Hash: fb36f1b5c72e8b6a - Time: 1436ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  3.71 MB |
+runtime.js          | runtime | 14.14 kB |
+
+65 unchanged chunks
+
+Build at: 2026-06-03T01:58:24.020Z - Hash: f5819b7b0a814a23 - Time: 1297ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  3.71 MB |
+runtime.js          | runtime | 14.14 kB |
+
+65 unchanged chunks
+
+Build at: 2026-06-03T01:58:25.589Z - Hash: 8a44ee70e71f56a5 - Time: 1363ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  3.71 MB |
+runtime.js          | runtime | 14.14 kB |
+
+65 unchanged chunks
+
+Build at: 2026-06-03T01:58:45.735Z - Hash: 1f57f904538c0b64 - Time: 1284ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  3.71 MB |
+runtime.js          | runtime | 14.14 kB |
+
+65 unchanged chunks
+
+Build at: 2026-06-03T01:59:15.828Z - Hash: 2eaf29f3c3c07e3f - Time: 1593ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  3.72 MB |
+runtime.js          | runtime | 14.14 kB |
+
+65 unchanged chunks
+
+Build at: 2026-06-03T01:59:17.376Z - Hash: 51b846edccf1eae7 - Time: 1319ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  3.72 MB |
+runtime.js          | runtime | 14.14 kB |
+
+65 unchanged chunks
+
+Build at: 2026-06-03T02:08:29.826Z - Hash: 9e87cbef959c32d5 - Time: 7167ms
+
+Error: src/app/app.module.ts:57:9 - error TS2451: Cannot redeclare block-scoped variable 'FaceTecSDK'.
+
+57   const FaceTecSDK: typeof FaceTecSDKType;
+           ~~~~~~~~~~
+
+  src/typings.d.ts:1:13
+    1 declare var FaceTecSDK: any;
+                  ~~~~~~~~~~
+    'FaceTecSDK' was also declared here.
+
+
+Error: src/typings.d.ts:1:13 - error TS2451: Cannot redeclare block-scoped variable 'FaceTecSDK'.
+
+1 declare var FaceTecSDK: any;
+              ~~~~~~~~~~
+
+  src/app/app.module.ts:57:9
+    57   const FaceTecSDK: typeof FaceTecSDKType;
+               ~~~~~~~~~~
+    'FaceTecSDK' was also declared here.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.14 kB |
+
+66 unchanged chunks
+
+Build at: 2026-06-03T10:15:51.496Z - Hash: 75cd910f21133033 - Time: 10262ms
+
+✔ Compiled successfully.
