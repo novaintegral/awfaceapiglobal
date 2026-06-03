@@ -94,3 +94,38 @@ For more info see: https://angular.io/guide/build#configuring-commonjs-dependenc
 
 
 ✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  3.72 MB |
+runtime.js          | runtime | 14.14 kB |
+
+62 unchanged chunks
+
+Build at: 2026-06-03T19:28:42.265Z - Hash: 6ae1804ad355a9aa - Time: 16740ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  3.72 MB |
+runtime.js          | runtime | 14.14 kB |
+
+62 unchanged chunks
+
+Build at: 2026-06-03T19:29:09.913Z - Hash: 2d12ae30ab2c79fa - Time: 13967ms
+
+Warning: src/app/send-digital-cnh/send-digital-cnh.component.html:56:44 - warning NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator.
+
+56       <p class="file-name">{{ filePreview?.name }}</p>
+                                              ~~~~
+
+  src/app/send-digital-cnh/send-digital-cnh.component.ts:7:16
+    7   templateUrl: './send-digital-cnh.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component SendDigitalCnhComponent.
+
+
+
+
+✔ Compiled successfully.
